@@ -195,7 +195,8 @@ def load_and_decrypt_key():
                 logger.info("🔑 Anthropic API Key 解密成功")
                 
         except Exception as e:
-            logger.error(f"❌ 密码错误或解密失败: {e}")
+            err_msg = str(e) if str(e) else "密码错误 (Invalid Token)"
+            logger.error(f"❌ 解密失败: {err_msg}")
             import sys
             sys.exit(1)
 
