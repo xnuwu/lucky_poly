@@ -1,0 +1,7 @@
+py_clob_client
+anthropic
+python-dotenv
+web3
+requests
+urllib3
+cryptography

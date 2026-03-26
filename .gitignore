@@ -1,0 +1,7 @@
+venv
+.env
+en_key.txt
+claude_api_key.txt
+*.log
+__pycache__
+*.pyc/
